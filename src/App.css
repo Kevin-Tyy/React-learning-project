@@ -1,14 +1,83 @@
-body{
-    /* background-color: black; */
-    text-align: center;
+*{
+    margin: 0;
 }
-.App h1{
-    color: rgb(28, 174, 223);
-    font-family: sans-serif;
-    text-align: center;   
+body{
+    background-color: #161616;
+    font-size: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.App{
+    background-color: #1A1B21;
+    width: 350px;
+    border-radius: 20px;
+    margin: 40px auto;
 }
 .App img{
-    width: 40px;
-    height: 40px;
+    width: 350px;
+    border-radius: 20px 20px 0 0;
 }
+.App .body .contact{
+    text-align: center;
+}
+.App .body .contact h1{
+    color: white;
+    font-size: 2em;
+    font-weight: 900;
+    margin: 10px;
+}
+.App .body .contact h2{
+    color: #F3BF99;
+    font-size: 1em;
+    font-weight: 100;
+    margin: 10px;
 
+}
+.App .body .contact a{
+    text-decoration: none;
+    font-size: 0.7em;
+    color: white;
+}
+.App .body .contact .btns button{
+    padding: 10px 50px;
+    margin: 10px;
+    justify-content: space-around;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+.App .body .contact .btn button:nth-child(1) {
+    background-color: white;
+}
+.App .body .contact .btns button:nth-child(2) {
+    background-color:  #5093E2;
+    color: white;
+}
+.App .body{
+    color: white;
+}
+.App .body .about{
+    margin: 25px;
+}
+.App .body .about div h2{
+    font-size: 1.2em;
+    margin-block: 5px;
+}
+.App .body .about div p{
+    font-size: 0.3em;
+    margin-block-end: 15px;
+    color: rgb(156, 156, 156);
+
+}
+.App .footer {
+    margin: 50px;
+    text-align: center;
+    color: white;
+
+}
+.wrapper{
+    background-color: #25272e;
+    width: 400px;
+    height: 89.6vh;
+    margin: 0 auto;
+    padding: 50px;
+}

@@ -1,35 +1,21 @@
 import React from 'react';
+import ImageComp from './Components/ImageComp';
+import Body from './Components/Body';
+import Footer from './Components/Footer';
 import './App.css'
-import Classprops from './ClassProps.js'
-import NewComp from './components/NewComp'
 
-
-class App extends React.Component{  
-    styles={
-        fontSize : "bold",
-        color: "rgb(28, 174, 223)"    
-    }
-    
-     
+class App extends React.Component {
     render(){
         return(
-            <div className='App'>
-                <h1 style={this.styles}>Welcome</h1>
-                <NewComp />
-
-                <Classprops name="Kevin">
-                    I am from Kigali-Rwanda...
-                </Classprops>
-                <Classprops name="James">
-                    I am from The US...
-                </Classprops>
-             
+            <div className='wrapper'>
+                <div className="App">
+                    <ImageComp />
+                    <Body />
+                    <Footer />
+                </div>
             </div>
         )
     }
 }
 
-
-export default App
-
-
+export default App;
