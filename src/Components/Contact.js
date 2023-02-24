@@ -9,7 +9,7 @@ class Contact extends React.Component {
             <div className='contact'>
                 <h1>Laura Smith</h1>
                 <h2>Frontend Developer</h2>
-                <a href="#">laurasmith.website</a>
+                <a href="http://localhost:3000/">laurasmith.website</a>
 
                 <div className='btns'>
                     <button><FontAwesomeIcon icon={faEnvelope} className="btn-icon" /> Email</button>

@@ -14,6 +14,8 @@ body{
 }
 .App img{
     width: 350px;
+    height: 300px;
+    object-fit: cover;
     border-radius: 20px 20px 0 0;
 }
 .App .body .contact{
@@ -35,12 +37,10 @@ body{
 .App .body .contact a{
     text-decoration: none;
     font-size: 0.7em;
-    color: white;
+    color : rgb(230, 53, 206);
     transition: 0.1s;
 }
-.App .body .contact a:hover{
-    color : rgb(230, 53, 206);
-}
+
 .App .body .contact .btns button{
     padding: 10px 40px;
     margin: 10px;
@@ -73,6 +73,7 @@ body{
     font-size: 0.3em;
     margin-block-end: 15px;
     color: rgb(156, 156, 156);
+    line-height: 19px;
 
 }
 .App .footer {
@@ -108,6 +109,7 @@ body{
 .wrapper{
     background-color: #25272e;
     width: 400px;
+    border-radius: 30px;
     height: 89.6vh;
     margin: 0 auto;
     padding: 50px;
@@ -128,23 +130,28 @@ body{
     padding: 10px 20px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
 
 }
 
 .white-content{
     color:  #e4e4e4;
-    background:  #e4e4e4;
+    background:  #c4c4c4;
     
 }
 .white-content .wrapper {
-    background-color: white;
+    background-color: rgb(216, 216, 216);
     box-shadow: 0 0 20px rgb(182, 182, 182);
 
 }
 .white-content .wrapper .App{
-    background-color: white;
+    background-color: rgb(228, 228, 228);
     box-shadow: 0 0 20px rgb(182, 182, 182);
 
+}
+.white-content  .App .body .contact a{
+    color : rgb(230, 53, 206);
+    
 }
 
 .white-content .App .body .contact .btns button:nth-child(1) {
@@ -164,7 +171,7 @@ body{
 
 
 .white-content .wrapper .footer{
-    background-color:#D5D4D8 ;
+    background-color:#a7a6a6 ;
     box-shadow: 0px 5px 10px rgb(182, 182, 182);
 
 }

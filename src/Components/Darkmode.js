@@ -1,8 +1,8 @@
 import React from 'react';
-// import './Dark.css';
-import ThemeContextWrapper from './themeContextWrapper';
+
+
 import { ThemeContext, themes } from './ContextTheme';
-import { Button, Container, InputGroup } from 'reactstrap';
+import { Button, InputGroup } from 'reactstrap';
 
 function DarkMode(){
 
