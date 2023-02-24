@@ -1,5 +1,7 @@
 import React from 'react';
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope} from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin} from '@fortawesome/free-brands-svg-icons'
 
 class Contact extends React.Component {
     render() {
@@ -10,8 +12,9 @@ class Contact extends React.Component {
                 <a href="#">laurasmith.website</a>
 
                 <div className='btns'>
-                    <button>Email</button>
-                    <button>LinkedIn</button>
+                    <button><FontAwesomeIcon icon={faEnvelope} className="btn-icon" /> Email</button>
+                  
+                    <button><FontAwesomeIcon icon={ faLinkedin} className="btn-icon" />LinkedIn</button>
                 </div>
             </div>
         )

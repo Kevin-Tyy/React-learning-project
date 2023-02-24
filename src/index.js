@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App.js'
+import ThemeContextWrapper from './Components/themeContextWrapper.js';
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+ReactDOM.render(
+    <ThemeContextWrapper >
     <App />
+    </ThemeContextWrapper >,
+    document.getElementById('root')
 )

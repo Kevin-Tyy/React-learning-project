@@ -2,7 +2,7 @@
     margin: 0;
 }
 body{
-    background-color: #161616;
+    background-color: #242424;
     font-size: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -26,7 +26,7 @@ body{
     margin: 10px;
 }
 .App .body .contact h2{
-    color: #F3BF99;
+    color: #4685e4;
     font-size: 1em;
     font-weight: 100;
     margin: 10px;
@@ -36,9 +36,13 @@ body{
     text-decoration: none;
     font-size: 0.7em;
     color: white;
+    transition: 0.1s;
+}
+.App .body .contact a:hover{
+    color : rgb(230, 53, 206);
 }
 .App .body .contact .btns button{
-    padding: 10px 50px;
+    padding: 10px 40px;
     margin: 10px;
     justify-content: space-around;
     border-radius: 7px;
@@ -56,7 +60,10 @@ body{
     color: white;
 }
 .App .body .about{
-    margin: 25px;
+    margin: 20px;
+}
+.btn-icon{
+    padding-right: 5px;
 }
 .App .body .about div h2{
     font-size: 1.2em;
@@ -69,10 +76,34 @@ body{
 
 }
 .App .footer {
-    margin: 50px;
+    margin: 40px 0px;
+    padding: 20px 0;
     text-align: center;
     color: white;
-
+    background-color: black;
+    border-radius: 0 0 20px 20px;
+}
+.footer .icons{
+    display: inline-block;
+    margin: 0 12px 10px ;
+    font-size: 25px;
+    cursor: pointer;
+    
+}
+.twitter:hover{
+    color: rgb(53, 135, 230);
+}
+.facebook:hover{
+    color: rgb(31, 113, 206);
+}
+.instagram:hover{
+    color: rgb(230, 53, 206);
+}
+.linkedin:hover{
+    color: rgb(72, 145, 228);
+}
+.github:hover{
+    color: rgb(112, 112, 112);
 }
 .wrapper{
     background-color: #25272e;
@@ -80,4 +111,83 @@ body{
     height: 89.6vh;
     margin: 0 auto;
     padding: 50px;
+}
+
+.dark-btn{
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+}
+
+
+.darkModeButton{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.white-content{
+    color:  #e4e4e4;
+    background:  #e4e4e4;
+    
+}
+.white-content .wrapper {
+    background-color: white;
+    box-shadow: 0 0 20px rgb(182, 182, 182);
+
+}
+.white-content .wrapper .App{
+    background-color: white;
+    box-shadow: 0 0 20px rgb(182, 182, 182);
+
+}
+
+.white-content .App .body .contact .btns button:nth-child(1) {
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.white-content .wrapper .contact h1, .white-content .wrapper .contact  a{
+    color: rgb(37, 37, 37);
+} 
+.white-content .App .body{
+    color: rgb(41, 41, 41);
+}
+.white-content .App .body .about div p{
+    color: rgb(66, 66, 66);
+}
+
+
+
+.white-content .wrapper .footer{
+    background-color:#D5D4D8 ;
+    box-shadow: 0px 5px 10px rgb(182, 182, 182);
+
+}
+.white-content .footer .icons{
+    color: black;
+}
+.white-content .darkModeButton{
+    box-shadow: 0 0 10px grey;
+    
+}
+
+.white-content .twitter:hover{
+    color: rgb(53, 135, 230);
+}
+.white-content .facebook:hover{
+    color: rgb(31, 113, 206);
+}
+.white-content .instagram:hover{
+    color: rgb(230, 53, 206);
+}
+.white-content .linkedin:hover{
+    color: rgb(72, 145, 228);
+}
+.white-content .github:hover{
+    color: rgb(112, 112, 112);
 }
